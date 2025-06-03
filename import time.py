@@ -46,7 +46,7 @@ def monitor_website(feed_url, token, chat_id):
 
 if __name__ == "__main__":
     FEED_URL = "https://feeds.bbci.co.uk/news/rss.xml"
-    TELEGRAM_BOT_TOKEN = "805439554083:AAFyFGr74kJnXRSGNPooj1dv6bknrRb_bNs"
-    TELEGRAM_CHAT_ID = "150223990448"
+    TELEGRAM_BOT_TOKEN = ""
+    TELEGRAM_CHAT_ID = ""
 
     monitor_website(FEED_URL, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID)
